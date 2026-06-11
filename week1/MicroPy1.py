@@ -8,5 +8,3 @@ while True:
     time.sleep(1)
     led.value(1)
     time.sleep(1)
-    
-    

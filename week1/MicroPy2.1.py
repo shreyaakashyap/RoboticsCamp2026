@@ -6,6 +6,7 @@ import utime
 ledRed = machine.Pin(11,machine.Pin.OUT)
 ledYellow = machine.Pin(12,machine.Pin.OUT)
 ledGreen = machine.Pin(13,machine.Pin.OUT)
+
 i = int(input("Cycle Number?"))
 while i>0:
     
