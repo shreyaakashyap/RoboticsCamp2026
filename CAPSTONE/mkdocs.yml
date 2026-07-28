@@ -1,0 +1,61 @@
+site_name: Capstone Docs
+site_description: Documentation for Shreyaa Kashyap's 2026 Capstone Project
+site_author: Shreyaa Kashyap
+
+theme:
+  theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+nav: 
+  - Introduction:
+    - Overview: intro/overview.md
+    - Plan: intro/CARD.md
+    - Execution: intro/BTP.md
+    - SunFounder Kit: intro/sun-founder.md
+
+  - Concept:
+    - Overview: concept/overview.md
+    - Candidates: concept/candidate_idea.md
+    - Final Idea: concept/final_idea.md
+
+  - Analysis:
+    - Overview: analysis/overview.md
+    - Materials: analysis/materials.md
+    - Alternative Materials: analysis/candidate.md
+
+  - Requirements:
+    - Overview: requirements/overview.md
+    - Ping-Pong Game: requirements/ping-pong.md
+    - Specifications: requirements/specifications.md
+
+  - Design:
+    - Overview: design/overview.md
+    - Circuit Diagram: design/circuit.md
+    - Build Layout: design/build-layout.md
+
+  - Build:
+    - Overview: build/overview.md
+    - Code: build/code.md
+    - Prototype: build/prototype.md
+
+  - Test:
+    - Overview: test/overview.md
+    - Testing Procedure: test/procedure.md
+    - Final Build: test/final-build.md
+
+  - Conclusion:
+    - Conclusion: conclusion/conclusion.md

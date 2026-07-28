@@ -1,0 +1,3 @@
+# Build Layout
+
+The basic layout involves an OLED screen with VCC and Grounds connected accordingly as well as SDA and SCL pins with the GPIO pins and channels connected accordingly. 4 buttons will be connected in parallel with the GPIO pins, power, and ground aat the correct positions and with 10K ohm resistors in between. Finally, the infrared sensor will be connected within the circuit with 220 ohm resistors regulating current flow.
